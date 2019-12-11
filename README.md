@@ -1,3 +1,11 @@
+This is an example of a image viewer stripped out of bigger scale project (a 8x1080p portrait kiosk app setup) using React. Unfortunately due to the nature of the project and the amount of branding throughout I can't disclose more.
+
+I've taken all the client info out and replaced with dummy images
+
+It is using yarn.
+
+run `yarn` to install all dependencies and `yarn start` to get a start the environment.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
