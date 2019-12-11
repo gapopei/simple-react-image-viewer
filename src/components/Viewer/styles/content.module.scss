@@ -1,0 +1,27 @@
+.content {
+    width: 85.55%;
+    height: 83.24%;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 3px 1px #dddddd;
+    box-shadow: 0 0 3px 1px #dddddd;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.content_scroll_wrap {
+    width:100%;
+    height: auto;
+    touch-action: none;
+    transition:none;
+
+    &.animate {
+        transition: margin 500ms;
+    }
+}
+
+.scroll_image {
+    width: 100%;
+    pointer-events: all!important;
+}
+

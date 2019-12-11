@@ -1,0 +1,18 @@
+{
+    "hotspots": [{
+        "id": 1,
+        "position": [
+            575.63,
+            1295
+        ],
+        "color": "#632678",
+        "text": "1",
+        "documents": [
+            {
+                "id": 1,
+                "file": "images/documents/1",
+                "pages": 5
+            }
+        ]
+    }]
+}

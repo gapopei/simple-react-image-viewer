@@ -1,0 +1,123 @@
+.pdfViewer {
+  width: 920px;
+  height: 1228.88087px;
+  position: absolute;
+  top: 500px;
+  z-index: 9999999;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-animation: scale 500ms ease-in-out;
+          animation: scale 500ms ease-in-out;
+}
+
+.pdfViewer.animate {
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.pdfViewer.opening {
+  -webkit-animation: scale 500ms ease-in-out;
+          animation: scale 500ms ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.pdfViewer.closing {
+  -webkit-animation: scaleOut 350ms ease-in-out;
+          animation: scaleOut 350ms ease-in-out;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  75% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  75% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes scaleOut {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@keyframes scaleOut {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.module.css.map */
