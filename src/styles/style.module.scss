@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto';
+  width: 100vw;
+  height: 100vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 0;
+  margin: 0;
+  background-color: #6673ee;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-size: 8640px 1920px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+#root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.stage {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  z-index: 3;
+}
+
+.viewers {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

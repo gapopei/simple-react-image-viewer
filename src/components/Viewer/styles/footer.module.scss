@@ -1,0 +1,22 @@
+.footer {
+    height: calc(100% - 83.24%);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.up {
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 5.95%;
+    pointer-events:all!important;
+}
+
+.down {
+    left: 7.5%;
+    position: absolute;
+    bottom: 0;
+    width: 5.95%;
+    pointer-events:all!important;
+}
