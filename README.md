@@ -4,7 +4,7 @@ I've taken all the client info out and replaced with dummy images
 
 It is using yarn.
 
-run `yarn` to install all dependencies and `yarn start` to get a start the environment.
+run `yarn` to install all dependencies and `yarn start` start the environment.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
